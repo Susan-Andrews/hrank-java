@@ -18,6 +18,10 @@ Calendar calendar = Calendar.getInstance();
         System.out.println("4 months later: " + calendar.getTime()); 
         calendar.add(Calendar.YEAR, 2); 
         System.out.println("2 years later: " + calendar.getTime()); 
+15 days ago: Mon Aug 13 10:45:00 GMT 2018
+4 months later: Thu Dec 13 10:45:00 GMT 2018
+2 years later: Sun Dec 13 10:45:00 GMT 2020
+
 Current Calendar's Year: 2018
 Current Calendar's Day: 28
 Current MINUTE: 10
