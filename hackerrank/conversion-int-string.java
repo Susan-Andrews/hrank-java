@@ -1,23 +1,34 @@
    int n = in .nextInt();
 
-                  String s=String.valueOf(n);
-                  String s= String.format("%d",n);
-                  String s=Integer.toString(n);
+                  String s=String.valueOf(n);  // Method 1
+                  String s= String.format("%d",n); // Method 2 
+                  String s=Integer.toString(n); // Method 3
 
-if (n == Integer.parseInt(s)) {
+if (n == Integer.parseInt(s)) {   // Method to convert string to integer
     System.out.println("Good job");
    } else {
     System.out.println("Wrong answer.");
    }
 
 
+For the input integer 123, all three methods (String.valueOf, String.format, and Integer.toString) will yield the same string value:
+
+s1: "123"
+s2: "123"
+s3: "123"
+
+Method 1: Good job
+Method 2: Good job
+Method 3: Good job
+
+-----------------------------------------------------------------------------------------------
 String s="200";  
 
                   int i=Integer.parseInt(s);  
                   Integer i=Integer.valueOf(s);  
 System.out.println(s+100);//200100, because "200"+100, here + is a string concatenation operator  
 System.out.println(i+100);//300, because 200+100, here + is a binary plus operator  
-
+-----------------------------------------------------------------------------------------------
 int (Primitive Data Type)
 Type: Primitive data type.
 Memory Size: Typically 4 bytes (32 bits).
