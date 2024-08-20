@@ -74,3 +74,6 @@ public class Solution {
        
     }
 }
+---------------------------------------------------------------------------------------------------
+
+// other questions in practice, arraylist folder
